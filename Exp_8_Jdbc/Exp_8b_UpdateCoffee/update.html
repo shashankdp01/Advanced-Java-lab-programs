@@ -1,0 +1,20 @@
+<!-- 8b. Read all the existing records from the table coffee which is from the database test and update an
+existing coffee product in the table with its id. [Create a table coffee with fields
+( id,coffee_name,price)] using HTML and JSP to get the fields and display the results respectively -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Coffee</title>
+</head>
+<body>
+    <h2>Update Coffee Product</h2>
+    <form action="update.jsp" method="post">
+        ID (to update): <input type="text" name="id" required><br><br>
+        New Coffee Name: <input type="text" name="coffee_name" required><br><br>
+        New Price: <input type="text" name="price" required><br><br>
+        <input type="submit" value="Update Coffee">
+    </form>
+</body>
+</html>
